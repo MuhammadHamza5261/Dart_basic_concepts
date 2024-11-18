@@ -94,7 +94,7 @@ class _TextFieldScreenState extends State<TextFieldScreen> {
               height: height*0.065,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.purple.shade200
+                  backgroundColor: Colors.purple.shade200
                 ),
                   onPressed: (){
                   if(_formKey.currentState!.validate()){

@@ -1,5 +1,5 @@
-import 'package:dartbasics/main.dart';
 import 'package:flutter/material.dart';
+
 class HeroWidgetScreenTwo extends StatefulWidget {
   final String tag;
   const HeroWidgetScreenTwo({super.key, required this.tag});
@@ -15,12 +15,12 @@ class _HeroWidgetScreenTwoState extends State<HeroWidgetScreenTwo> {
     var height = MediaQuery.of(context).size.height;
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hero Screen 2'),
+        title: const Text('Hero Screen 2'),
       ),
-      body:  Center(
+      body:  const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: const [
+          children: [
             Hero(
               tag: 'person1',
               child: CircleAvatar(
